@@ -1,5 +1,5 @@
 body {
-    font-family: cursive, monospace, sans-serif;
+    font-family: cursive, monospace, sans-serif; /* fun font to try to fit Halloween theme */
     margin: 0px;
     padding: 0px;
     background-color: #2c2c2c; 
@@ -9,11 +9,11 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #8c00cd; 
+    background-color: #8c00cd; /* purple background for header! */
 }
 
 h1 {
-    color: #ff9900; /* bright orange text*/
+    color: #ff9900; /* bright orange text for header */
 }
 
 main {
@@ -21,15 +21,15 @@ main {
 }
 
 .candy-collection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: flex; /* flex box design */
+    flex-wrap: wrap; /* candies wrap to next line if needed */
+    justify-content: space-around; /* helps with spacing of candies */
     margin: auto auto;
 }
 
 .candy {
-    background-color: #4b2c2c; 
-    border: 2px solid #ff9900; 
+    background-color: #4b2c2c; /* purple-ish brown background color for candies */
+    border: 2px solid #ff9900; /* orange border! */
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
@@ -39,7 +39,7 @@ main {
 }
 
 .candy img {
-    width: 100px; 
+    width: 100px; /* setting each candy size so uniform */
     height: 100px;
 }
 
@@ -51,7 +51,7 @@ main {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #8c00cd; 
+    background-color: #8c00cd; /* same purple background as header */
     position: relative;
     bottom: 0;
     width: 100%;
@@ -59,5 +59,5 @@ footer {
 
 footer > p {
     font-weight: bold;
-    font-size: medium;
+    font-size: medium; /* making footer font bigger and bold */
 }
